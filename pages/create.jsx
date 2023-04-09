@@ -44,7 +44,7 @@ export default function Create() {
                       :
                         <div className="w-full text-center bg-[#F9FAFB] rounded border border-slate-200 p-6">
                           <p className="text-base text-secondary mb-2">You must be connected to share a post in this forum.</p>
-                          <button className="btn-sm py-1.5 bg-main bg-main-hover" onClick={() => setConnectModalVis(true)}>Connect</button>
+                          <button className="btn-sm py-1.5 bg-main bg-main-hover" onClick={() => setConnectModalVis(true)}>连接钱包</button>
                         </div>
                       }
                     </div>

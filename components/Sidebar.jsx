@@ -57,7 +57,7 @@ const RecentDiscussions = () => {
 
   return(
     <div>
-      <div className="text-xs uppercase text-slate-600 font-semibold mb-4">Active Discussions</div>
+      <div className="text-xs uppercase text-slate-600 font-semibold mb-4">活跃话题</div>
       <ul className="space-y-6">
         {(posts && posts.length > 0) ?
           <>

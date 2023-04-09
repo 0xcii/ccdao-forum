@@ -19,13 +19,13 @@ function Footer() {
             <div className="text-sm font-medium md:order-1 mb-2 md:mb-0">
               <ul className="inline-flex flex-wrap text-sm space-x-6">
                 <li>
-                  <Link className="text-slate-500 hover:underline" href="/post/kjzl6cwe1jw14b9pin02aak0ot08wvnrhzf8buujkop28swyxnvtsjdye742jo6">
-                    Learn more
+                  <Link className="text-slate-500 hover:underline" href="https://twitter.com/ccdaoclub">
+                    加入CCDAO 
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-slate-500 hover:underline" href="https://useorbis.com" target="_blank">
-                    Go to useorbis.com
+                  <Link className="text-slate-500 hover:underline" href="https://ccdao.club" target="_blank">
+                    访问官网
                   </Link>
                 </li>
 
@@ -41,7 +41,7 @@ function Footer() {
                 <Link
                   className="flex justify-center items-center text-brand text-brand-hover"
                   target="_blank"
-                  href="https://twitter.com/useOrbis">
+                  href="https://twitter.com/ccdaoclub">
                   <TwitterIcon />
                 </Link>
               </li>
@@ -49,14 +49,14 @@ function Footer() {
                 <Link
                   className="flex justify-center items-center text-brand text-brand-hover"
                   target="_blank"
-                  href="https://github.com/OrbisWeb3">
+                  href="https://linktr.ee/ccdaoclub">
                   <GithubIcon />
                 </Link>
               </li>
             </ul>
 
             {/* Copyright */}
-            <div className="text-sm text-slate-600">Copyright © Orbis Labs. All rights reserved.</div>
+            <div className="text-sm text-slate-600">Copyright ©  CCDAO Club. All rights reserved.</div>
           </div>
         </div>
       </div>

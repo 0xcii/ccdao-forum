@@ -90,7 +90,7 @@ function Home({defaultPosts}) {
               <Header />
 
               {/*  Page sections */}
-              <Hero title="Welcome to the Orbis Forum!" description="Respectful and good-faith discussion should be the cornerstone of any decision-making process. In trying to enact change, please keep this principle in mind." image={<HeroOrbisIcon />} />
+              <Hero title="欢迎来到CCDAO知识库!" description="CCDAO 是由开发者共同建设的集体智慧型Web3社区.社区通过智慧集成、创意共享、产品写作和技术革新等方面,帮助梦想家们在Web3世界中发展壮大." image={<HeroOrbisIcon />} />
 
               {/* Page content */}
               <section>
@@ -162,7 +162,7 @@ const CategoriesNavigation = ({ categories, nav, setNav }) => {
       <div className="text-center md:text-left md:flex justify-between items-center">
         {/* Right: Button */}
         <div className="mb-4 md:mb-0 md:order-1 md:ml-6">
-          <Link className="btn-sm py-1.5 btn-brand" href="/create">Create Post</Link>
+          <Link className="btn-sm py-1.5 btn-brand" href="/create">发布内容</Link>
         </div>
 
         {/* Left: Links */}

@@ -61,8 +61,8 @@ function Header() {
                 </li>
                 <li>
                   <Link className="text-sm font-medium hover:underline px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
-                    href="/post/kjzl6cwe1jw14b9pin02aak0ot08wvnrhzf8buujkop28swyxnvtsjdye742jo6">
-                    Learn more
+                    href="https://ccdao.club">
+                    关于CCDAO
                   </Link>
                 </li>
                 {/** Show connect button or user connected */}
@@ -86,9 +86,9 @@ function Header() {
                 :
                   <li className="ml-3">
                     {connecting ?
-                      <div className="btn-sm btn-main w-full" onClick={() => setConnectModalVis(true)}><LoadingCircle style={{marginRight: 3}} /> Connecting</div>
+                      <div className="btn-sm btn-main w-full" onClick={() => setConnectModalVis(true)}><LoadingCircle style={{marginRight: 3}} /> 连接中...</div>
                     :
-                      <div className="btn-sm btn-main w-full" onClick={() => setConnectModalVis(true)}>Connect</div>
+                      <div className="btn-sm btn-main w-full" onClick={() => setConnectModalVis(true)}>连接钱包</div>
                     }
 
                   </li>
@@ -96,7 +96,7 @@ function Header() {
                 {/** Will open the discussion feed on the right */}
                 <li className="ml-3">
                   <div className="relative btn-sm btn-secondary w-full" onClick={() => openCommunityChat()}>
-                    Community Chat <PanelRight style={{marginLeft: 5}} />
+                    CCDAO聊天室 <PanelRight style={{marginLeft: 5}} />
 
                     {/** Show unread indicator if any */}
                     {hasUnreadMessages &&
